@@ -1,0 +1,19 @@
+textarea {
+  width: 200px;
+  height: 100px;
+  vertical-align: middle;
+}
+
+form {
+  font-family: 'Source Code Pro', monospace;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.requirelLabel {
+  color: red;
+}
+
+input:required {
+  color: darkred;
+}

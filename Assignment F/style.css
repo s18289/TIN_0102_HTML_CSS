@@ -1,0 +1,91 @@
+body {
+  background-color: black;
+  font-family: 'Grenze Gotisch', cursive;
+  font-size: 16px;
+}
+
+.rectangle {
+  position: relative;
+  margin: 0 auto;
+  max-width: 800px;
+  border: 2px dashed black;
+  background-color: white;
+}
+
+.rectangle::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url('https://cutewallpaper.org/21/oscar-wallpapers/Oscars-Wallpapers-20-Wallpapers-Adorable-Wallpapers.jpg');
+  background-size: cover;
+  background-position: top center;
+  opacity: 0.25;
+}
+
+.oscarLogoContainer {
+  position: relative;
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.oscarLogo {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 650px;
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border: 5px solid gold;
+}
+
+ul {
+  list-style-image: url('./flag.png');
+  margin: 0px 60px;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+.noFlag {
+  list-style: none;
+  margin-left: -20px;
+  font-size: 1.5rem;
+}
+
+h1 {
+  position: relative;
+  margin-left: 20px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+p {
+  position: relative;
+  max-width: 600px;
+  padding: 10px;
+  border: 2px solid lightskyblue;
+  background-color: wheat;
+  font-size: 1.5rem;
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+hr {
+  position: relative;
+  width: 100%;
+  background-color: lightblue;
+  height: 5px;
+  left: -30px;
+  top: -16px;
+}
